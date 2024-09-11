@@ -1,0 +1,191 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.photo1 {
+    height: 400px;
+    width: 400px;
+    border-radius: 150px 130px 130px 150px;
+    box-shadow: 20px 20px 20px white;
+    padding-left: 300px;
+
+}
+
+.fasts {
+    display: flex;
+    margin-bottom: 100px;
+    background-color: deepskyblue;
+    height: 450px;
+    width: auto;
+
+}
+
+@media screen and (max-width:576px) {
+    .fasts {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.half-width {
+    padding-left: 5%;
+    padding: 8%;
+
+}
+
+.half-width p {
+    margin-bottom: 20%;
+    font-weight: lighter;
+}
+
+.half-width img {
+    width: 90%;
+    padding-left: 40px;
+}
+
+.half-width h1 {
+    font-size: 70px;
+    color: white;
+
+}
+
+.half-width h5 {
+    color: white;
+    font-size: small;
+}
+
+.second {
+    display: flex;
+    margin-bottom: 50px;
+    width: 75%;
+    margin-left: 200px;
+    margin-right: 40px;
+    border-radius: 40px;
+    border: 4px solid hwb(198 82% 0%);
+}
+
+.pic {
+    border-radius: 15px;
+}
+
+.pic:hover {
+    transform: scaleY(1.2);
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: hwb(189 23% 2%);
+}
+
+.thard {
+    display: flex;
+    margin-bottom: 100px;
+    padding-left: 200px;
+}
+
+.third-section-div {
+    margin-bottom: 50px;
+    width: 300px;
+    height: 450px;
+    padding-right: 5px;
+    margin: 50px 0px 0px 50px;
+    border-radius: 40px;
+    background-color: rgb(224, 228, 232);
+}
+
+#middel {
+    height: 600px;
+    width: 400px;
+    padding-right: 5px;
+    margin: -40px 0px 0px 50px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 70px rgb(58, 182, 231);
+}
+
+#middel h1 {
+    padding: 5%;
+    font-size: 30px;
+}
+
+#middel p {
+    padding: 8%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#middel a {
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 2%;
+    margin-left: 150px;
+}
+
+#middel img {
+    padding-left: 150px;
+    margin-top: 40px;
+}
+
+#middel a:hover {
+    transform: scale(1.1);
+}
+
+.third-section-div h1 {
+    padding: 5%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.third-section-div p {
+    padding: 8%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.third-section-div img {
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.third-section-div a {
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 2%;
+    margin-left: 100px;
+}
+
+.mitu {
+    font-size: 20px;
+    width: 50%;
+    padding: 4%;
+    margin: 4%;
+}
+
+.mitu p {
+    margin-bottom: 20px;
+}
+
+.mitu img {}
+
+.mitu a {
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 2%;
+    margin-left: 5px;
+}
+
+.end {
+    display: flex;
+}
